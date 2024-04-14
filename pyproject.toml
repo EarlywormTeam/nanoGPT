@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nanogpt"
+version = "0.1.0"
+description = ""
+authors = ["Chris Wood <christopherhwood@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+torch = "^2.2.2"
+numpy = "^1.26.4"
+datasets = "^2.18.0"
+tiktoken = "^0.6.0"
+wandb = "^0.16.6"
+tqdm = "^4.66.2"
+transformers = "^4.39.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
